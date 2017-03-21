@@ -1,0 +1,52 @@
+import turtle
+
+window = turtle.Screen()
+window.bgcolor("pink")
+
+abc =turtle.Turtle()
+abc.shape("arrow")
+abc.color("red","green")
+abc.pensize(4)
+abc.stamp()
+
+#for alphabet R
+#abc.pu()
+abc.setpos(-50,0)
+abc.pd()
+abc.left(90)
+abc.forward(100)
+abc.right(90)
+abc.seth(0)
+abc.circle(50,180)
+abc.left(90)
+abc.forward(100)
+abc.setpos(0,0)
+
+#for alphabet A
+#abc.pu()
+abc.setpos(10,0)
+abc.pd()
+abc.seth(0)
+abc.left(75)
+abc.forward(200)
+abc.right(150)
+abc.forward(200)
+x = abc.xcor()
+print(x)
+abc.right(180)
+abc.forward(80)
+abc.seth(180)
+abc.forward(62)
+
+#for alphabet M
+#abc.pu()
+abc.setpos(x+10,0)
+abc.pd()
+abc.seth(90)
+abc.forward(200)
+abc.right(165)
+abc.forward(150)
+abc.left(150)
+abc.forward(150)
+abc.seth(270)
+abc.forward(200)
